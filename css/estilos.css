@@ -3,8 +3,9 @@ body {
     padding: 0px;
     margin: 0px;
     font-size: 12px;
-    font-family: helvetica;
+    font-family: Helvetica;
 }
+
 
 nav {
     display: flex;
@@ -22,13 +23,39 @@ nav ul {
 nav li {
     padding-left: 20px;
     list-style: none;
+
 }
 
 nav li a {
-    color: gray;
+    color: black;
     text-decoration: none;
 }
 
 nav li a:hover {
     color: white;
+}
+
+/* ------------------------ Main section */
+
+.main_section {
+    padding: 15%;
+    text-align: center;
+}
+
+.products {
+    background-image: url("../img/curve.png");
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+}
+
+.product {
+    padding: 10px;
+}
+
+.product .content {
+    background-color: white;
+    padding: 20px;
 }
