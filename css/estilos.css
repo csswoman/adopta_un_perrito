@@ -60,11 +60,13 @@ nav li a:hover {
 
 .products {
   background-image: url("../img/curve.png");
-  max-height: 200px;
-  background-size: cover;
+  padding: 15%;
   background-position: center top;
-  padding: 10%;
+  background-repeat: no-repeat;
   display: flex;
+  height: 95px;
+  background-size: cover;
+
 }
 
 .product {
@@ -116,7 +118,7 @@ nav li a:hover {
 }
 
 .beneficio img {
-  max-height: 250px
+  max-height: 230px
 }
 
 .text_beneficio {
@@ -129,7 +131,7 @@ nav li a:hover {
 }
 
 .mention img {
-  width: 300px;
+  width: 100%;
 }
 
 h2.mention_title {
