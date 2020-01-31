@@ -147,3 +147,12 @@ h2.mention_title {
 .mention .text {
   padding: var(--space);
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: var(--black-color);
+  padding: var(--space);
+  color: var(--white-color);
+}
